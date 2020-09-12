@@ -14,6 +14,7 @@ render() {
     e.target.style.backgroundColor = 'white';
     e.target.style.color = 'black';
     e.target.style.fontWeight = "bold";
+    e.target.style.textDecoration = "none";
   }
   
   function changeColorBack(e) {
