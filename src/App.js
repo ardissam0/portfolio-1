@@ -11,11 +11,15 @@ class App extends Component {
 render() {
 
   function changeColor(e) {
-    e.target.style.color = '#327580';
+    e.target.style.border = '3px solid white';
+    e.target.style.backgroundColor = 'white';
+    e.target.style.color = 'black';
     e.target.style.fontWeight = "bold";
   }
   
   function changeColorBack(e) {
+    e.target.style.border = 'none';
+    e.target.style.backgroundColor = 'black';
     e.target.style.color = 'white';
     e.target.style.fontWeight = 'lighter';
   }
@@ -25,11 +29,9 @@ render() {
       <div className="demo-big-content">
         <Layout>
             <Header className="header-color" 
-                    style ={{backgroundColor: '#142F33',}} 
+                    style ={{backgroundColor: 'black',}} 
                     title={<Link 
-                    onMouseOver={changeColor} 
-                    onMouseLeave={changeColorBack} 
-                    style={{textDecoration: 'none', color: 'ghostwhite', letterSpacing: '.2em',}} 
+                    style={{textDecoration: 'none', color: 'white', letterSpacing: '.2em',}} 
                     to="/">
                     <img
                     src={logo}
@@ -41,24 +43,22 @@ render() {
 
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
 
                 </Navigation>
             </Header>
-            <Drawer style ={{backgroundColor: '#142F33'}} 
+            <Drawer style ={{backgroundColor: 'black'}} 
                     title={<Link 
-                    onMouseOver={changeColor} 
-                    onMouseLeave={changeColorBack} 
-                    style={{textDecoration: 'none', color: 'ghostwhite', lettSpacing: '.2em'}} 
+                    style={{textDecoration: 'none', color: 'white', lettSpacing: '.2em'}} 
                     to="/">
                     <img
                     src={logo}
@@ -70,16 +70,16 @@ render() {
                   
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'ghostwhite', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
+                style= {{color: 'white', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
                   
                 </Navigation>
             </Drawer>

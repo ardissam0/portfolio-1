@@ -38,7 +38,7 @@ class ContactForm extends React.Component {
         	placeholder="Message here"
         	required
         	value={this.state.feedback}
-            style={{width: '96.5%', height: '40vh', border: '3px solid white', borderRadius: '6px', margin: 'auto'}}
+            style={{width: '96.5%', height: '40vh', border: '3px solid black', borderRadius: '6px', margin: 'auto'}}
       	/>
     	</div>
     	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />

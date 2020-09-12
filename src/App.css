@@ -1,10 +1,10 @@
 .header-color {
-  background-color: #327580;  /* fallback for old browsers */
+  background-color: white;  /* fallback for old browsers */
 }
 
 .landing-grid {
   overflow-y: auto;
-  background: #327580;  /* fallback for old browsers */
+  background: white;  /* fallback for old browsers */
   background-image: url("./img/fadedwavesloop.gif");
   background-repeat: repeat no-repeat;
   object-fit: fill;
@@ -23,8 +23,8 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #142F33;
-  color: ghostwhite;
+  background: black;
+  color: white;
   padding: 2em;
 }
 
@@ -34,8 +34,8 @@
   margin: auto;
   width: 100%;
   height: 100%;
-  background-color: #327580;
-  color: ghostwhite;
+  background-color: white;
+  color: black;
   justify-content: center;
   padding-top: 2em;
 }
@@ -44,8 +44,8 @@
   text-align: center;
   justify-content: center;
   width: 100%;
-  background-color: #327580;
-  color: ghostwhite;
+  background-color: white;
+  color: black;
 }
 
 .contact-grid h2{
@@ -57,9 +57,9 @@
 }
 
 .btn, .btn--submit {
-  border: 3px solid ghostwhite;
-  background-color: ghostwhite;
-  color: #327580;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
   height: 2.25em;
   width: 6em;
   font-weight: bold;
@@ -70,9 +70,9 @@
 }
 
 .btn:hover {
-  border: 3px solid #142F33;
-  background-color: #142F33;
-  color: ghostwhite;
+  border: 3px solid black;
+  background-color: black;
+  color: white;
   animation: shake 0.5s;
   animation-iteration-count: 3s;
 }
@@ -88,14 +88,14 @@
 } 
 
 .contact-grid hr {
-  border-top: 5px dotted ghostwhite;
+  border-top: 5px dotted black;
   width: 95%;
   margin: auto;
 }
 
 .contact-list {
-  background: #327580;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .contact-list i {
@@ -125,7 +125,7 @@
   -webkit-box-shadow: 4px 3px 54px 22px rgba(0,0,0,0.62);
   -moz-box-shadow: 4px 3px 54px 22px rgba(0,0,0,0.62);
   box-shadow: 4px 3px 54px 22px rgba(0,0,0,0.62); 
-  background-color: #142F33;
+  background-color: black;
   opacity: .8;
   width: 75%;
   height: 97%;
@@ -140,13 +140,13 @@
 }
 
 .banner-text hr {
-  border-top: 5px dotted ghostwhite;
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: ghostwhite;
+  color: white;
   font-size: 20px;
   padding: 1em;
 }
@@ -166,14 +166,13 @@
 }
 
 .social-links i {
-  color: ghostwhite;
+  color: white;
   font-size: 5em;
   padding: 10px;
 
 }
 
 .social-links i:hover {
-  color: #327580;
   animation: shake 0.5s;
   animation-iteration-count: 3s;
 
