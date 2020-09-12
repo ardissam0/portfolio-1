@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import logo from './img/SAMLOGO.png';
+import logo from './img/logocanva1.png';
 
 
 class App extends Component {
@@ -29,7 +29,7 @@ render() {
                     title={<Link 
                     onMouseOver={changeColor} 
                     onMouseLeave={changeColorBack} 
-                    style={{textDecoration: 'none', color: 'ghostwhite', letterSpacing: '.2em' }} 
+                    style={{textDecoration: 'none', color: 'ghostwhite', letterSpacing: '.2em',}} 
                     to="/">
                     <img
                     src={logo}
