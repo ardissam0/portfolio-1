@@ -11,14 +11,12 @@ class App extends Component {
 render() {
 
   function changeColor(e) {
-    e.target.style.border = '3px solid white';
     e.target.style.backgroundColor = 'white';
     e.target.style.color = 'black';
     e.target.style.fontWeight = "bold";
   }
   
   function changeColorBack(e) {
-    e.target.style.border = 'none';
     e.target.style.backgroundColor = 'black';
     e.target.style.color = 'white';
     e.target.style.fontWeight = 'lighter';
@@ -29,7 +27,7 @@ render() {
       <div className="demo-big-content">
         <Layout>
             <Header className="header-color" 
-                    style ={{backgroundColor: 'black',}} 
+                    style ={{backgroundColor: 'black'}} 
                     title={<Link 
                     style={{textDecoration: 'none', color: 'white', letterSpacing: '.2em',}} 
                     to="/">
