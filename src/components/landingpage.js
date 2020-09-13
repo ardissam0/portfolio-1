@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import img from '../img/profpicforportfolio.png';
+import img from '../img/NewProfPic.png';
 
 
 class Landing extends Component {

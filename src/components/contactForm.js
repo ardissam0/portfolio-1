@@ -89,7 +89,7 @@ render() {
                 onChange={this.handleChange.bind(this, 'message')}
               />
             </FormGroup>
-<Button style = {{background: 'black'}} id="btn btn--submit">
+<Button style = {{background: 'black', color: 'white'}} id="btn btn--submit">
               Submit
             </Button>
           </Form>

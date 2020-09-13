@@ -4,7 +4,7 @@
 
 .landing-grid {
   overflow-y: auto;
-  background: black;  /* fallback for old browsers */
+  background: white;  /* fallback for old browsers */
   /* background-image: url("./img/fadedwavesloop.gif"); */
   background-repeat: repeat no-repeat;
   object-fit: fill;
@@ -125,7 +125,7 @@
   -webkit-box-shadow: 4px 3px 54px 22px rgba(0,0,0,0.62);
   -moz-box-shadow: 4px 3px 54px 22px rgba(0,0,0,0.62);
   box-shadow: 4px 3px 54px 22px rgba(0,0,0,0.62); 
-  background-color: white;
+  background-color: black;
   width: 75%;
   height: 97%;
   margin: auto;
@@ -135,17 +135,17 @@
 .banner-text h1 {
   font-size: 50px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .banner-text hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 1em;
 }
@@ -165,7 +165,7 @@
 }
 
 .social-links i {
-  color: black;
+  color: white;
   font-size: 5em;
   padding: 10px;
 
