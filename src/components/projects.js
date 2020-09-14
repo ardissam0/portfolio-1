@@ -17,7 +17,7 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px'}}>
+          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
             <CardTitle>
                     <img
                     src={MiracleMessagesImg}
@@ -35,7 +35,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px'}}>
+          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
             <CardTitle>
                     <img
                     src={NasaImg}
@@ -53,7 +53,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px'}}>
+          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
             <CardTitle>
                     <img
                     src={MemAddProjImg}
@@ -77,7 +77,7 @@ class Projects extends Component {
       return (
         <div>          
           {/* Project 4 */}
-        <Card shadow={5} style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px'}}>
+        <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
           <CardTitle>
                   <img
                   src={GithubApiProjImg}
