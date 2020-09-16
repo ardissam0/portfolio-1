@@ -4,8 +4,10 @@ import NasaImg from '../img/NasaSnip.png';
 import GithubApiProjImg from '../img/githubapiproj.JPG';
 import MemAddProjImg from '../img/memberaddproj.JPG';
 import MiracleMessagesImg from '../img/miraclemessagessnip.JPG';
-import TodoAppImg from '../img/todoappimg.JPG'
-import CarSalesImg from '../img/carsalesimg.JPG'
+import TodoAppImg from '../img/todoappimg.JPG';
+import CarSalesImg from '../img/carsalesimg.JPG';
+import ShopCartImg from '../img/shoppingcatimg.JPG';
+import NewsfeedImg from '../img/newsfeedimg.JPG';
 
 class Projects extends Component {
   constructor(props) {
@@ -90,7 +92,25 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 5 */}
+            {/* Project 5 */}
+            <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+            <CardTitle>
+                    <img
+                    src={ShopCartImg}
+                    alt="Car sales proj"
+                    style={{height: '100%', width: '100%'}}
+                    /></CardTitle>
+            <CardText style = {{ color: 'white'}}>
+              I built an app where you can add products and remove them from the cart, as well as get the total cost.
+            </CardText>
+            <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, and Sass.</CardText>
+            <CardActions border className='btn-proj-div'>
+              <button className ='btn-proj'><a href="https://react-shopping-cart-gules.vercel.app/cart" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://github.com/ardissam0/react-shopping-cart" rel="noopener noreferrer" target="_blank">Github</a></button>
+            </CardActions>
+          </Card>
+
+          {/* Project 6 */}
           <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
             <CardTitle>
                     <img
@@ -114,7 +134,7 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div>          
-          {/* Project 4 */}
+          {/* Project 1 */}
         <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
           <CardTitle>
                   <img
@@ -130,7 +150,26 @@ class Projects extends Component {
             <button className ='btn-proj'><a href="https://github-usercard-lbjbk61lu.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
             <button className ='btn-proj'><a href="https://github.com/ardissam0/github-usercard/tree/Samuel-Ardis" rel="noopener noreferrer" target="_blank">Github</a></button>
           </CardActions>
-        </Card> </div>
+        </Card> 
+
+        {/* Project 2 */}
+        <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+          <CardTitle>
+                  <img
+                  src={NewsfeedImg}
+                  alt="Github Api Proj"
+                  style={{height: '100%', width: '100%'}}
+                  /></CardTitle>
+          <CardText style = {{ color: 'white'}}>
+            I built a website that displays a mock newsfeed that you can click and expand to read and click again to close, as well as a mock sidebar navigation.
+          </CardText>
+          <CardText style = {{ color: 'white'}}> STACK: JavaScript, HTML, and CSS.</CardText>
+          <CardActions border className='btn-proj-div'>
+            <button className ='btn-proj'><a href="https://admiring-kare-d1f60b.netlify.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+            <button className ='btn-proj'><a href="https://github.com/ardissam0/Newsfeed-Components" rel="noopener noreferrer" target="_blank">Github</a></button>
+          </CardActions>
+        </Card> 
+        </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
