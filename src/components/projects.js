@@ -6,7 +6,7 @@ import MemAddProjImg from '../img/memberaddproj.JPG';
 import MiracleMessagesImg from '../img/miraclemessagessnip.JPG';
 import TodoAppImg from '../img/todoappimg.JPG';
 import CarSalesImg from '../img/carsalesimg.JPG';
-import ShopCartImg from '../img/shoppingcatimg.JPG';
+import ShopCartImg from '../img/shoppingcartimg.JPG';
 import NewsfeedImg from '../img/newsfeedimg.JPG';
 
 class Projects extends Component {
