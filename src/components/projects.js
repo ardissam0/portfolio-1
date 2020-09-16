@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import NasaImg from '../img/NasaSnip.png';
 import GithubApiProjImg from '../img/githubapiproj.JPG';
-import MemAddProjImg from '../img/memberaddproj.JPG';
+import RickMortyImg from '../img/rickandmortyfanimg.JPG';
 import MiracleMessagesImg from '../img/miraclemessagessnip.JPG';
 import TodoAppImg from '../img/todoappimg.JPG';
 import CarSalesImg from '../img/carsalesimg.JPG';
@@ -105,7 +105,7 @@ class Projects extends Component {
             </CardText>
             <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, and Sass.</CardText>
             <CardActions border className='btn-proj-div'>
-              <button className ='btn-proj'><a href="https://react-shopping-cart-gules.vercel.app/cart" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://react-shopping-cart-gules.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/ardissam0/react-shopping-cart" rel="noopener noreferrer" target="_blank">Github</a></button>
             </CardActions>
           </Card>
@@ -114,17 +114,17 @@ class Projects extends Component {
           <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
             <CardTitle>
                     <img
-                    src={MemAddProjImg}
-                    alt="Member add proj"
+                    src={RickMortyImg}
+                    alt="Rick and Morty proj"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white'}}>
-              I built a simple app where you can use a form to add team members to the DOM.
+              This was a 3 hour sprint challenge where I had to build a Rick and Morty fan page that pulled from an API and had character search functionality.
             </CardText>
             <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, and CSS.</CardText>
             <CardActions border className='btn-proj-div'>
-              <button className ='btn-proj'><a href="https://team-builder-app-swart.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
-              <button className ='btn-proj'><a href="https://github.com/ardissam0/team-builder/tree/Samuel-Ardis" rel="noopener noreferrer" target="_blank">Github</a></button>
+              <button className ='btn-proj'><a href="https://sprint-challenge-single-page-apps-ochre.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://github.com/ardissam0/Sprint-Challenge-Single-Page-Apps" rel="noopener noreferrer" target="_blank">Github</a></button>
             </CardActions>
           </Card>
         </div>
