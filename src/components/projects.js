@@ -147,7 +147,7 @@ class Projects extends Component {
           </CardText>
           <CardText style = {{ color: 'white'}}> STACK: JavaScript, HTML, and CSS.</CardText>
           <CardActions border className='btn-proj-div'>
-            <button className ='btn-proj'><a href="https://github-usercard-lbjbk61lu.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+            <button className ='btn-proj'><a href="https://github-usercard-coral.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
             <button className ='btn-proj'><a href="https://github.com/ardissam0/github-usercard/tree/Samuel-Ardis" rel="noopener noreferrer" target="_blank">Github</a></button>
           </CardActions>
         </Card> 
