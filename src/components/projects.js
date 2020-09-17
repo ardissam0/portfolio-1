@@ -21,17 +21,19 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
                     src={MiracleMessagesImg}
                     alt="Mirracle messages labs project"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
-            <CardText style = {{ color: 'white'}}>
-              Worked with a team of developers to build an app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              Worked with a team of developers to build a web app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality using Okta. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
             </CardText>
-            <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, Sass.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, Sass.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
             <CardActions border className='btn-proj-div'>
               <button className ='btn-proj'><a href="https://miracle-messages-fe-dgknhsijz.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/Lambda-School-Labs/miracle-messages-fe" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -39,17 +41,19 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
                     src={NasaImg}
                     alt="Nasa Project"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
-            <CardText style = {{ color: 'white'}}>
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
               I built a photo of the day app that uses NASA's API for an image, title, and explanation that updates daily. I also added a simple animation and made it mobile friendly.
             </CardText>
-            <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, and CSS.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and CSS.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
             <CardActions border className='btn-proj-div'>
               <button className ='btn-proj'><a href="https://nasa-photo-of-the-day-fq1quvy7u.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/ardissam0/nasa-photo-of-the-day" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -57,17 +61,19 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
                     src={TodoAppImg}
                     alt="Todo app proj"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
-            <CardText style = {{ color: 'white'}}>
-              I built a simple todo app, you can add and delete your daily todo's.
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              I built a simple mobile friendly todo app, you can add and delete your daily todo's. This is also mobile friendly. 
             </CardText>
-            <CardText style = {{ color: 'white'}}> STACK: React, Redux, JavaScript, and CSS.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, Redux, JavaScript, and CSS.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
             <CardActions border className='btn-proj-div'>
               <button className ='btn-proj'><a href="https://todo-app-1.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/ardissam0/todo-app-1" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -75,17 +81,19 @@ class Projects extends Component {
           </Card>
 
           {/* Project 4 */}
-          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
                     src={CarSalesImg}
                     alt="Car sales proj"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
-            <CardText style = {{ color: 'white'}}>
-              I built an app where you can add and delete different features on a Ford Mustang and the total price will be added up for you.
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              I built a mobile friendly web app where you can add and delete different features on a Ford Mustang and the total price will be added up for you.
             </CardText>
-            <CardText style = {{ color: 'white'}}> STACK: React, Redux, JavaScript, and Sass.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, Redux, JavaScript, and Sass.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
             <CardActions border className='btn-proj-div'>
               <button className ='btn-proj'><a href="https://car-sales-ten.now.sh/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/ardissam0/Car-Sales" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -93,17 +101,19 @@ class Projects extends Component {
           </Card>
 
             {/* Project 5 */}
-            <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+            <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
                     src={ShopCartImg}
                     alt="Car sales proj"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
-            <CardText style = {{ color: 'white'}}>
-              I built an app where you can add products and remove them from the cart, as well as get the total cost.
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              I built a mobile friendly web app where you can add products and remove them from the cart, as well as get the total cost. 
             </CardText>
-            <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, and Sass.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and Sass.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
             <CardActions border className='btn-proj-div'>
               <button className ='btn-proj'><a href="https://react-shopping-cart-gules.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/ardissam0/react-shopping-cart" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -111,17 +121,19 @@ class Projects extends Component {
           </Card>
 
           {/* Project 6 */}
-          <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
                     src={RickMortyImg}
                     alt="Rick and Morty proj"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
-            <CardText style = {{ color: 'white'}}>
-              This was a 3 hour sprint challenge where I had to build a Rick and Morty fan page that pulled from an API and had character search functionality.
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              This was a 3 hour timed sprint challenge where I had to build a Rick and Morty fan page that pulled from an API and had character search functionality. Once I completed it, I made it mobile friendly as well.
             </CardText>
-            <CardText style = {{ color: 'white'}}> STACK: React, JavaScript, and CSS.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and CSS.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
             <CardActions border className='btn-proj-div'>
               <button className ='btn-proj'><a href="https://sprint-challenge-single-page-apps-ochre.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/ardissam0/Sprint-Challenge-Single-Page-Apps" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -135,17 +147,19 @@ class Projects extends Component {
       return (
         <div>          
           {/* Project 1 */}
-        <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+        <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
           <CardTitle>
                   <img
                   src={GithubApiProjImg}
                   alt="Github Api Proj"
                   style={{height: '100%', width: '100%'}}
                   /></CardTitle>
-          <CardText style = {{ color: 'white'}}>
-            I built an app that pulls data form my github and displays me and my followers in cards.
+          <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+            I built a mobile friendly app that pulls data form my github and displays me and my followers data on cards.
           </CardText>
-          <CardText style = {{ color: 'white'}}> STACK: JavaScript, HTML, and CSS.</CardText>
+          <CardText style = {{ color: 'white',}}> STACK: JavaScript, HTML, and CSS.</CardText>
+          <CardText></CardText>
+          <CardText></CardText>
           <CardActions border className='btn-proj-div'>
             <button className ='btn-proj'><a href="https://github-usercard-coral.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
             <button className ='btn-proj'><a href="https://github.com/ardissam0/github-usercard/tree/Samuel-Ardis" rel="noopener noreferrer" target="_blank">Github</a></button>
@@ -153,17 +167,19 @@ class Projects extends Component {
         </Card> 
 
         {/* Project 2 */}
-        <Card shadow={5} className="proj-cards" style={{width: '450', margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px'}}>
+        <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
           <CardTitle>
                   <img
                   src={NewsfeedImg}
                   alt="Github Api Proj"
                   style={{height: '100%', width: '100%'}}
                   /></CardTitle>
-          <CardText style = {{ color: 'white'}}>
-            I built a website that displays a mock newsfeed that you can click and expand to read and click again to close, as well as a mock sidebar navigation.
+          <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+            I built a website that displays a mock newsfeed that you can click and expand to read and click again to close, as well as a mock sidebar navigation. NOTE: This site is not mobile friendly. 
           </CardText>
-          <CardText style = {{ color: 'white'}}> STACK: JavaScript, HTML, and CSS.</CardText>
+          <CardText style = {{ color: 'white',}}> STACK: JavaScript, HTML, and CSS.</CardText>
+          <CardText></CardText>
+          <CardText></CardText>
           <CardActions border className='btn-proj-div'>
             <button className ='btn-proj'><a href="https://admiring-kare-d1f60b.netlify.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
             <button className ='btn-proj'><a href="https://github.com/ardissam0/Newsfeed-Components" rel="noopener noreferrer" target="_blank">Github</a></button>

@@ -19,9 +19,10 @@
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
 }
 
-@media(max-width: 1030px) {
+@media(max-width: 700px) {
   .projects-grid {
     flex-direction: column;
     margin-top: 20px;
@@ -95,6 +96,10 @@
 .btn-proj-div {
   display: flex;
   justify-content: space-around;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 10px;
 }
 
 .btn-proj {
@@ -106,8 +111,6 @@
   font-weight: bold;
   font-size: 1.1em;
   border-radius: 7px;
-  margin-top: 5px;
-  margin-bottom: 10px;
 }
 
 .btn-proj:hover {
