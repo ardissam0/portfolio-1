@@ -145,7 +145,7 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div>          
+        <div className="projects-grid">          
           {/* Project 1 */}
         <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
           <CardTitle>
