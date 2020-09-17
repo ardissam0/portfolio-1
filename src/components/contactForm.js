@@ -5,6 +5,8 @@ export default function ContactForm() {
 
   function sendEmail(e) {
     e.preventDefault();
+    alert('Message sent!');
+    e.target.reset()
 
     emailjs.sendForm('ardis_productions_gmail_com', 'template_of7oXN4X', e.target, 'user_JP3KJFruQIUasNlOMfyEB')
       .then((result) => {
@@ -23,7 +25,7 @@ export default function ContactForm() {
       <input type="email" name="from_email" />
       <label>Message:</label>
       <textarea name="message_html" />
-      <input className="btn-contact-form"  type="submit" value="Send" />
+      <input className="btn-contact-form"  type="submit" value="Send"/>
     </form>
   );
 }
