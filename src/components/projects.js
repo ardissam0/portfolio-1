@@ -8,6 +8,7 @@ import TodoAppImg from '../img/todoappimg.JPG';
 import CarSalesImg from '../img/carsalesimg.JPG';
 import ShopCartImg from '../img/shoppingcartimg.JPG';
 import NewsfeedImg from '../img/newsfeedimg.JPG';
+import TodoFirebaseImg from '../img/todofirebaseimg.JPG';
 
 class Projects extends Component {
   constructor(props) {
@@ -64,12 +65,32 @@ class Projects extends Component {
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
+                    src={TodoFirebaseImg}
+                    alt="Todo app proj"
+                    style={{height: '100%', width: '100%'}}
+                    /></CardTitle>
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              I built a mobile-friendly TODO App where you can add items to your todo list and update/delete as needed using firebase as backend/host.
+            </CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and SASS.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
+            <CardActions border className='btn-proj-div'>
+              <button className ='btn-proj'><a href="https://todo-list-app-a1b10.web.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://github.com/ardissam0/todo-list-app" rel="noopener noreferrer" target="_blank">Github</a></button>
+            </CardActions>
+          </Card>
+
+          {/* Project 4 */}
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
+            <CardTitle>
+                    <img
                     src={TodoAppImg}
                     alt="Todo app proj"
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto'}}>
-              I built a simple mobile friendly todo app, you can add and delete your daily todo's. This is also mobile friendly. 
+              I built a simple mobile friendly todo app where you can add your daily todo's and delete by clicking on your todo and clicking the clear button.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, Redux, JavaScript, and CSS.</CardText>
             <CardText></CardText>
@@ -80,7 +101,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 4 */}
+          {/* Project 5 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -100,7 +121,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-            {/* Project 5 */}
+            {/* Project 6 */}
             <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -120,7 +141,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 6 */}
+          {/* Project 7 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
