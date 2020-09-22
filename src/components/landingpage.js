@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import img from '../img/NewProfPic.png';
 
 
@@ -47,7 +47,17 @@ class Landing extends Component {
                 </a>
 
                 </div>
+
             </div>
+
+            <Footer size="mini" style={{backgroundColor: 'white', marginTop: '150px', justifyContent: 'center'}}>
+                <FooterSection type="left" >
+                    <FooterLinkList style={{textAlign: 'center'}}>
+                    </FooterLinkList>
+                    <footer>&copy; Copyright {(new Date().getFullYear())} <a href="https://samardis.com/">samardis.com</a></footer>
+                </FooterSection>
+            </Footer>
+
           </Cell>
         </Grid>
       </div>

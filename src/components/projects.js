@@ -9,6 +9,7 @@ import CarSalesImg from '../img/carsalesimg.JPG';
 import ShopCartImg from '../img/shoppingcartimg.JPG';
 import NewsfeedImg from '../img/newsfeedimg.JPG';
 import TodoFirebaseImg from '../img/todofirebaseimg.JPG';
+import CovidTrackAppImg from '../img/covidtrackingappimg.JPG';
 
 class Projects extends Component {
   constructor(props) {
@@ -45,6 +46,26 @@ class Projects extends Component {
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
+                    src={CovidTrackAppImg}
+                    alt="Covi-19 tracker app Project"
+                    style={{height: '100%', width: '100%'}}
+                    /></CardTitle>
+            <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+              I built a mobile-friendly COVID-19 tracker app that shows you the total and new worldwide cases, as well as individual country data (cases, recovered, and deaths). There is a table, map, and graph that you can use to get a good visual of the data.
+            </CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and CSS.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
+            <CardActions border className='btn-proj-div'>
+              <button className ='btn-proj'><a href="https://covid-19-tracker-app-d7699.web.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://github.com/ardissam0/COVID-19_TRACKER-APP" rel="noopener noreferrer" target="_blank">Github</a></button>
+            </CardActions>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
+            <CardTitle>
+                    <img
                     src={NasaImg}
                     alt="Nasa Project"
                     style={{height: '100%', width: '100%'}}
@@ -61,7 +82,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 3 */}
+          {/* Project 4 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -81,7 +102,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 4 */}
+          {/* Project 5 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -101,7 +122,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 5 */}
+          {/* Project 6 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -121,7 +142,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-            {/* Project 6 */}
+            {/* Project 7 */}
             <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -141,7 +162,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 7 */}
+          {/* Project 8 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img

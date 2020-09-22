@@ -260,11 +260,34 @@ input {
 
 }
 
+@media(max-width: 500px) {
+  .social-links i{
+    font-size: 3.25em;
+  }
+}
+
 .social-links i:hover {
   animation: shake 0.5s;
   animation-iteration-count: 3s;
 
 }
+
+@media(max-width: 750px) {
+  .mdl-mini-footer__link-list{
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+.mdl-mini-footer__link-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .footer__app {
+    text-align: center;
+    margin-top: 20px;
+  }
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }

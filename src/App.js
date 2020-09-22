@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import Main from './components/Main';
 import { Link } from 'react-router-dom';
 import logo from './img/logocanva1.png';
 
@@ -66,7 +66,6 @@ render() {
                     />
                     </Link>}>
                 <Navigation>
-                  
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
                 style= {{color: 'white', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
@@ -79,13 +78,24 @@ render() {
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
                 style= {{color: 'white', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
-                  
                 </Navigation>
             </Drawer>
             <Content>
                 <div className="page-content"/>
                 <Main/>
             </Content>
+            <Footer size="mini" style={{backgroundColor: 'black', justifyContent: 'center', alignItems: 'center',}}>
+                <FooterSection type="left" >
+                    <FooterLinkList className="footer__list">
+                      <Link style= {{color: 'white', letterSpacing: '.5em',}} to="/"> HOME</Link>
+                      <Link style= {{color: 'white', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
+                      <Link style= {{color: 'white', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
+                      <Link style= {{color: 'white', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
+                      <Link style= {{color: 'white', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
+                    </FooterLinkList>
+                    <footer className="footer__app">&copy; Copyright {(new Date().getFullYear())} <a href="https://samardis.com/">samardis.com</a></footer>
+                </FooterSection>
+            </Footer>
         </Layout>
 </div>
 
