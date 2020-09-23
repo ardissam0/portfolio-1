@@ -3,7 +3,7 @@ import { Grid, Cell, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import img from '../img/NewProfPic.png';
 
 
-class Landing extends Component {
+class LandingPage extends Component {
 
   render() {
 
@@ -65,4 +65,4 @@ class Landing extends Component {
   }
 }
 
-export default Landing;
+export default LandingPage;
