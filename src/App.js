@@ -39,21 +39,19 @@ render() {
                     />
                     </Link>} scroll>
                 <Navigation>
-
-                <Link onMouseOver={changeColor}
-                onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
-                <Link onMouseOver={changeColor}
-                onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
-                <Link onMouseOver={changeColor}
-                onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
-                <Link onMouseOver={changeColor}
-                onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
-
-                </Navigation>
+                  <Link onMouseOver={changeColor}
+                  onMouseLeave={changeColorBack}
+                  style= {{color: 'white', letterSpacing: '.5em' }} to="/resume">RESUME</Link>
+                  <Link onMouseOver={changeColor}
+                  onMouseLeave={changeColorBack}
+                  style= {{color: 'white', letterSpacing: '.5em' }} to="/aboutme">ABOUT</Link>
+                  <Link onMouseOver={changeColor}
+                  onMouseLeave={changeColorBack}
+                  style= {{color: 'white', letterSpacing: '.5em' }} to="/projects">PROJECTS</Link>
+                  <Link onMouseOver={changeColor}
+                  onMouseLeave={changeColorBack}
+                  style= {{color: 'white', letterSpacing: '.5em' }} to="/contact">CONTACT</Link>
+               </Navigation>
             </Header>
             <Drawer style ={{backgroundColor: 'black'}} 
                     title={<Link 
