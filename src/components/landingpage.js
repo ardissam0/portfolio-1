@@ -50,7 +50,7 @@ class LandingPage extends Component {
 
             </div>
 
-            <Footer size="mini" style={{backgroundColor: 'white', marginTop: '150px', justifyContent: 'center'}}>
+            <Footer size="mini" style={{backgroundColor: 'white', marginTop: '120px', marginBottom: '20px', justifyContent: 'center'}}>
                 <FooterSection type="left" >
                     <FooterLinkList style={{textAlign: 'center'}}>
                     </FooterLinkList>

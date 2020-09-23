@@ -25,7 +25,7 @@ render() {
 
     return (
 
-      <div className="demo-big-content">
+      <div className="content">
         <Layout>
             <Header className="header-color" 
                     style ={{backgroundColor: 'black'}} 
@@ -81,8 +81,7 @@ render() {
             <Content>
                 <div className="page-content"/>
                 <Main/>
-            </Content>
-            <Footer size="mini" style={{backgroundColor: 'black', justifyContent: 'center', alignItems: 'center',}}>
+                <Footer size="mini" style={{backgroundColor: 'black', justifyContent: 'center', alignItems: 'center',}}>
                 <FooterSection type="left" >
                     <FooterLinkList>
                       <Link style= {{color: 'white', letterSpacing: '.5em',}} to="/"> HOME</Link>
@@ -120,6 +119,7 @@ render() {
                 </FooterLinkList>
                 </FooterSection>
             </Footer>
+            </Content>
         </Layout>
 </div>
 
