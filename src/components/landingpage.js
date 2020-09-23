@@ -55,8 +55,8 @@ class LandingPage extends Component {
                 <Footer size="mini" style={{backgroundColor: 'white', marginTop: '120px', marginBottom: '20px', justifyContent: 'center'}}>
                     <FooterSection type="left" >
                         <FooterLinkList style={{textAlign: 'center'}}>
-                        </FooterLinkList>
                         <footer>&copy; Copyright {(new Date().getFullYear())} <a href="https://samardis.com/">samardis.com</a></footer>
+                        </FooterLinkList>
                     </FooterSection>
                 </Footer>
 

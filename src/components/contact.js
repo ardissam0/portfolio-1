@@ -16,26 +16,6 @@ class Contact extends Component {
                 <h2>Contact Me</h2>
                   <hr/>
                 <ContactForm/>
-                    <List style={{ color: 'black',}}>
-                      <ListItem>
-                        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: 'black',}}>
-                          <i className="fa fa-phone-square" aria-hidden="true"/>
-                          (517) 240-2202
-                        </ListItemContent>
-                      </ListItem>
-
-                      <ListItem>
-                        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: 'black',}}>
-                          <i className="fa fa-envelope" aria-hidden="true"/>
-                          ardis.productions@gmail.com
-                        </ListItemContent>
-                      </ListItem>
-
-                      <ListItem>
-                        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: 'black',}}>
-                        </ListItemContent>
-                      </ListItem>
-                    </List>
                   </div>
                 </Cell>
               </Content>

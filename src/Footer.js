@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
-import { Footer, FooterSection, FooterLinkList} from 'react-mdl';
+import { Footer, FooterSection, FooterLinkList,} from 'react-mdl';
 
 function FooterPage() {
     return (
@@ -39,6 +39,9 @@ function FooterPage() {
                                     <i className="fa fa-instagram" aria-hidden="true" />
                                 </a>
                             
+                            </div>
+                            <div style={{marginTop: '20px'}}>
+                                <p>ardis.productions@gmail.com</p>
                             </div>
                         <footer className="footer__app">&copy; Copyright {(new Date().getFullYear())} <a href="https://samardis.com/">samardis.com</a></footer>
                     </FooterLinkList>
