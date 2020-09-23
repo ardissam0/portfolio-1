@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
-import Main from '../src/components/Main';
+import Main from './components/main';
 import { Link } from 'react-router-dom';
 import logo from './img/logocanva1.png';
 
