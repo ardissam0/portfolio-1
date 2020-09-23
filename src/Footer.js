@@ -43,7 +43,7 @@ function FooterPage() {
                             <div style={{marginTop: '20px'}}>
                                 <p>ardis.productions@gmail.com</p>
                             </div>
-                        <footer className="footer__app">&copy; Copyright {(new Date().getFullYear())} <a href="https://samardis.com/">samardis.com</a></footer>
+                            <footer className="footer__app">&copy; Copyright {(new Date().getFullYear())} <a href="https://samardis.com/">samardis.com</a></footer>
                     </FooterLinkList>
                 </FooterSection>
             </Footer>
