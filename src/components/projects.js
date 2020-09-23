@@ -249,7 +249,6 @@ class Projects extends Component {
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>React</Tab>
           <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>JavaScript</Tab>
-          <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Node</Tab>
           <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Python</Tab>
         </Tabs>
 
