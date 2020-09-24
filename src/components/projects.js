@@ -10,6 +10,7 @@ import ShopCartImg from '../img/shoppingcartimg.JPG';
 import NewsfeedImg from '../img/newsfeedimg.JPG';
 import TodoFirebaseImg from '../img/todofirebaseimg.JPG';
 import CovidTrackAppImg from '../img/covidtrackingappimg.JPG';
+import AnywhereFitnessAppImg from '../img/anywherefitnessimg.JPG';
 
 class Projects extends Component {
   constructor(props) {
@@ -231,7 +232,27 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div> </div>
+        <div>
+        {/* Project 1 */}
+        <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
+          <CardTitle>
+                  <img
+                  src={AnywhereFitnessAppImg}
+                  alt="Api for Anywhere Fitness app Proj"
+                  style={{height: '100%', width: '100%'}}
+                  /></CardTitle>
+          <CardText style = {{ color: 'white', overflowY: 'auto'}}>
+            I built the backend and deployed the API for a week long group project I did at lambda school called Anywhere Fitness. This app allows you to see what type of classes instrutors are hosting online and when you can attend them. You can login as a client or an instructor, and perform all CRUD operations. I will include the deployed frontend where you can try out the crud operations like registering, logging in, etc. 
+          </CardText>
+          <CardText style = {{ color: 'white',}}> STACK: Node.js</CardText>
+          <CardText></CardText>
+          <CardText></CardText>
+          <CardActions border className='btn-proj-div'>
+            <button className ='btn-proj'><a href="https://fitness-anywhere-bw.netlify.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+            <button className ='btn-proj'><a href="https://github.com/BW-AnywhereFitness/BE" rel="noopener noreferrer" target="_blank">Github</a></button>
+          </CardActions>
+        </Card> 
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
@@ -249,6 +270,7 @@ class Projects extends Component {
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>React</Tab>
           <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>JavaScript</Tab>
+          <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Node</Tab>
           <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Python</Tab>
         </Tabs>
 
