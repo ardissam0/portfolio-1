@@ -34,7 +34,7 @@ class Projects extends Component {
             <CardText style = {{ color: 'white', overflowY: 'auto'}}>
               Worked with a team of developers to build a web app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality using Okta. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
             </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, Sass.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, SASS.</CardText>
             <CardText></CardText>
             <CardText></CardText>
             <CardActions border className='btn-proj-div'>
@@ -52,7 +52,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto'}}>
-              I built a mobile-friendly COVID-19 tracker app that shows you the total and new worldwide cases, as well as individual country data (cases, recovered, and deaths). There is a table, map, and graph that you can use to get a good visual of the data.
+              I built a mobile-friendly COVID-19 tracker app that shows you the total and new worldwide cases, as well as individual country data (cases, recovered, and deaths). There is a table, map, and graph that you can use to get a good visual of the data and I implemented a dark mode toggle to switch between your desired background.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and CSS.</CardText>
             <CardText></CardText>
@@ -134,7 +134,7 @@ class Projects extends Component {
             <CardText style = {{ color: 'white', overflowY: 'auto'}}>
               I built a mobile friendly web app where you can add and delete different features on a Ford Mustang and the total price will be added up for you.
             </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React, Redux, JavaScript, and Sass.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, Redux, JavaScript, and SASS.</CardText>
             <CardText></CardText>
             <CardText></CardText>
             <CardActions border className='btn-proj-div'>
@@ -154,7 +154,7 @@ class Projects extends Component {
             <CardText style = {{ color: 'white', overflowY: 'auto'}}>
               I built a mobile friendly web app where you can add products and remove them from the cart, as well as get the total cost. 
             </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and Sass.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, JavaScript, and SASS.</CardText>
             <CardText></CardText>
             <CardText></CardText>
             <CardActions border className='btn-proj-div'>
