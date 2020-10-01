@@ -33,17 +33,30 @@ class Resume extends Component {
 
             <Education
               startYear={2014}
-              endYear={2022}
+              endYear={2018}
               schoolName="Grand Valley State University (BS)"
-              schoolDescription="Junior level status with courses completed in multiple disciplines. Currently on a hiatus from GVSU due to extenuating circumstances and the Covid-19 virus."
-               />
+              schoolDescription1="(77 credit hours) Junior level status"
+
+              schoolDescription2="Completed courses in multiple disciplines like: Arabic, Biology, Creative writing, Nutrition, Psychology, Statistics, and many more."
+              schoolDescription3="Studied abroad for 5 weeks in the middle east (Oman and Dubai), with a small group of students and gain a world perspective that changed me forever"
+              schoolDescription4="Worked hands-on with many different groups of students to complete various projects and presentations"
+              schoolDescription5="Also developed many individual projects in various disciplines, giving me unique perspectives from different fields of study"
+              schoolDescription6="Reached the deans list (3.5+ GPA) during my time at GVSU"
+              schoolDescription7="Currently not enrolled due to financial reasons, I hope to return someday soon"/>
 
                <Education
                  startYear={2019}
                  endYear={2020}
-                 schoolName="Lambda School (Bootcamp)"
-                 schoolDescription="Completed the Full Stack Web Development curriculumn with Computer Science fundamentals. Over 1,300 hours."
-                  />
+                 schoolName="Lambda School (Online computer science and software engineering program)"
+
+                 schoolDescription1="Completed the 9+ month intensive computer science and software engineering program that provides an immersive hands-on curriculum with a focus on computer science and full stack web development."
+                 schoolDescription2="Approached many coding challenges using pair programming"
+                 schoolDescription3="Utilized agile software development and Git workflow on all projects"
+                 schoolDescription4="Gained hands-on experience with client and server testing"
+                 schoolDescription5="Designed original user experiences across a range of web and mobile platforms, from ideation, to wireframing, to final product"
+                 schoolDescription6="Completed all curriculum course work including: React, Redux, Node, Express, Jest, Python, etc"
+                 schoolDescription7="Wrote production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single-page applications" />
+                  
                 <hr style={{borderTop: '3px solid white'}} />
 
               <h2>Experience</h2>
@@ -51,9 +64,17 @@ class Resume extends Component {
             <Experience
               startYear={2020}
               endYear={2020}
-              jobName="Lambda Labs Project (Miracle Messages)"
-              jobDescription="Worked with the CEO of Miracle Messages, a nonprofit organization that helps the homeless. I worked with a team of 4 other web developers to create a beautiful website with an interactive map and much more, flying through 3 product release cycles over the course of 1.5 months."
-              />
+              jobName="Miracle Messages (nonprofit Organization"
+              jobDescription1="worked directly with the CEO of nonprofit organization to build an interactive map and tiered authorization for product dashboard, increasing the efficiency of the workflow at the organization."
+                   
+              jobDescription2="Wrote code with a small team of developers, using pair programming and alone"
+              jobDescription3="Utilized agile software development and Git workflow on this project"
+              jobDescription4="Gained hands-on experience with stakeholder meetings every week"
+              jobDescription5="Designed original user experiences by building an interactive map, and tiered authorization for the dashboard and other functionality."
+              jobDescription6="Used wireframe to picture the design of the dashboard."
+              jobDescription7="Completed 3 product release cycles using measurable release canvases"
+              jobDescription8="Wrote production-ready code using ReactJS, Redux, and CSS/SASS to build this single-page application" />
+                  
 
               <hr style={{borderTop: '3px solid white'}} />
               <h2>Skills</h2>
@@ -62,12 +83,12 @@ class Resume extends Component {
                   progress={90}
                   />
               <Skills
-                skill="javascript"
-                progress={75}
+                skill="JavaScript"
+                progress={70}
                 />
                 <Skills
                       skill="React"
-                      progress={70}
+                      progress={80}
                       />
                 <Skills  
                     skill="Python"
@@ -75,11 +96,15 @@ class Resume extends Component {
                     />
                 <Skills  
                     skill="NodeJS"
-                    progress={60}
+                    progress={65}
                     />
                 <Skills  
                     skill="SQL"
-                    progress={45}
+                    progress={50}
+                    />
+                    <Skills  
+                    skill="API's"
+                    progress={60}
                     />
                     
 
