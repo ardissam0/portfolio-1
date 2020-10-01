@@ -20,7 +20,7 @@ class LandingPage extends Component {
                         alt="avatar"
                         className="avatar-img"
                         />
-                        <h1>Full Stack Web Developer</h1>
+                        <h1>FULL STACK WEB DEVELOPER</h1>
 
                         <hr/>
 
