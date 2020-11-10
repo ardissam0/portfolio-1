@@ -32,7 +32,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              Worked with a team of developers to build a web app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality using Okta. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
+            Watch the first 15 minutes of this presentation to see an in depth look at the project: <a href="https://youtu.be/Dp1q0x9lQNU" rel="noopener noreferrer" target="_blank">YouTube</a> <br/> <br/> Worked with a team of developers to build a web app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality using Okta. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, Redux, CSS/SASS.</CardText>
             <CardText></CardText>
@@ -52,7 +52,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              I built a mobile-friendly COVID-19 tracker app that shows you the total and new worldwide cases, as well as individual country data (cases, recovered, and deaths). There is a table, map, and graph that you can use to get a good visual of the data and I implemented a dark mode toggle to switch between your desired background.
+              Built a mobile-friendly COVID-19 tracker app that shows you the total and new worldwide cases, as well as individual country data (cases, recovered, and deaths). There is a table, map, and graph that you can use to get a good visual of the data and I implemented a dark mode toggle to switch between your desired background.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React and CSS.</CardText>
             <CardText></CardText>
@@ -72,7 +72,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              I built a photo of the day app that uses NASA's API for an image, title, and explanation that updates daily. I also added a simple animation and made it mobile friendly.
+              Built a photo of the day app that uses NASA's API for an image, title, and explanation that updates daily. I also added a simple animation and made it mobile friendly.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React and CSS.</CardText>
             <CardText></CardText>
@@ -92,7 +92,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              I built a mobile-friendly TODO App where you can add items to your todo list and update/delete as needed using firebase as backend/host.
+              Built a mobile-friendly TODO App where you can add items to your todo list and update/delete as needed using firebase as backend/host.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React and CSS/SASS.</CardText>
             <CardText></CardText>
@@ -112,7 +112,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              I built a simple mobile friendly todo app where you can add your daily todo's and delete by clicking on your todo and clicking the clear button.
+              Built a simple mobile friendly todo app where you can add your daily todo's and delete by clicking on your todo and clicking the clear button.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, Redux, and CSS.</CardText>
             <CardText></CardText>
@@ -132,7 +132,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              I built a mobile friendly web app where you can add and delete different features on a Ford Mustang and the total price will be added up for you.
+              Built a mobile friendly web app where you can add and delete different features on a Ford Mustang and the total price will be added up for you.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, Redux, and CSS/SASS.</CardText>
             <CardText></CardText>
@@ -152,7 +152,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              I built a mobile friendly web app where you can add products and remove them from the cart, as well as get the total cost. 
+              Built a mobile friendly web app where you can add products and remove them from the cart, as well as get the total cost. 
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React and CSS/SASS.</CardText>
             <CardText></CardText>
@@ -198,7 +198,7 @@ class Projects extends Component {
                   style={{height: '100%', width: '100%'}}
                   /></CardTitle>
           <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-            I built a mobile friendly app that pulls data form my github and displays me and my followers data on cards.
+            Built a mobile friendly app that pulls data form my github and displays me and my followers data on cards.
           </CardText>
           <CardText style = {{ color: 'white',}}> STACK: JavaScript, HTML, and CSS.</CardText>
           <CardText></CardText>
@@ -218,7 +218,7 @@ class Projects extends Component {
                   style={{height: '100%', width: '100%'}}
                   /></CardTitle>
           <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-            I built a website that displays a mock newsfeed that you can click and expand to read and click again to close, as well as a mock sidebar navigation. NOTE: This site is not mobile friendly. 
+            Built a website that displays a mock newsfeed that you can click and expand to read and click again to close, as well as a mock sidebar navigation. NOTE: This site is not mobile friendly. 
           </CardText>
           <CardText style = {{ color: 'white',}}> STACK: JavaScript, HTML, and CSS.</CardText>
           <CardText></CardText>
@@ -242,7 +242,7 @@ class Projects extends Component {
                   style={{height: '100%', width: '100%'}}
                   /></CardTitle>
           <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-            I built the backend and deployed the API for a week long group project I did at lambda school called Anywhere Fitness. This app allows you to see what type of classes instrutors are hosting online and when you can attend them. You can login as a client or an instructor, and perform all CRUD operations. I will include the deployed frontend where you can try out the crud operations like registering, logging in, etc. 
+            Built the backend and deployed the API for a week long group project I did at lambda school called Anywhere Fitness. This app allows you to see what type of classes instrutors are hosting online and when you can attend them. You can login as a client or an instructor, and perform all CRUD operations. I will include the deployed frontend where you can try out the crud operations like registering, logging in, etc. 
           </CardText>
           <CardText style = {{ color: 'white',}}> STACK: Node and Express</CardText>
           <CardText></CardText>
