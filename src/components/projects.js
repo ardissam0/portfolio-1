@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import NasaImg from '../img/NasaSnip.png';
-import RickMortyImg from '../img/rickandmortyfanimg.JPG';
 import MiracleMessagesImg from '../img/miraclemessagessnip.JPG';
 import TodoFirebaseImg from '../img/todofirebaseimg.JPG';
 import CovidTrackAppImg from '../img/covidtrackingappimg - Copy.JPG';
@@ -98,28 +97,7 @@ class Projects extends Component {
               <button className ='btn-proj'><a href="https://github.com/ardissam0/todo-list-app" rel="noopener noreferrer" target="_blank">Github</a></button>
             </CardActions>
           </Card>
-
-          {/* Project 8 */}
-          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
-            <CardTitle>
-                    <img
-                    src={RickMortyImg}
-                    alt="Rick and Morty proj"
-                    style={{height: '100%', width: '100%'}}
-                    /></CardTitle>
-            <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              This was a 3 hour timed sprint challenge where I had to build a Rick and Morty fan page that pulled from an API and had character search functionality. Once I completed it, I made it mobile friendly as well.
-            </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React and CSS.</CardText>
-            <CardText></CardText>
-            <CardText></CardText>
-            <CardActions border className='btn-proj-div'>
-              <button className ='btn-proj'><a href="https://sprint-challenge-single-page-apps-ochre.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
-              <button className ='btn-proj'><a href="https://github.com/ardissam0/Sprint-Challenge-Single-Page-Apps" rel="noopener noreferrer" target="_blank">Github</a></button>
-            </CardActions>
-          </Card>
         </div>
-
 
       )
     } else if(this.state.activeTab === 1) {
