@@ -13,9 +13,9 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
             </div>
             <h2 style={{paddingTop: '2em'}}>Samuel Ardis </h2>
-            <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
+            <h4 style={{color: 'grey'}}>Front-End Web Developer</h4>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
-            <p>Web Developer with 1 year of experience structuring, developing and implementing interactive websites and applications. Able to complete projects efficiently and satisfy customers with attractive, user-friendly applications.</p>
+            <p>I am a Web Developer with 1 year of experience structuring, developing and implementing interactive websites and applications. Able to complete projects efficiently and satisfy customers with attractive, user-friendly applications.</p>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
             <h5>Location</h5>
             <p>Lansing, MI</p>
@@ -80,34 +80,20 @@ class Resume extends Component {
               <h2>Skills</h2>
               <Skills
                   skill="HTML/CSS"
-                  progress={90}
+                  progress={95}
                   />
               <Skills
                 skill="JavaScript"
                 progress={70}
                 />
                 <Skills
-                      skill="React"
-                      progress={80}
-                      />
+                  skill="React"
+                  progress={85}
+                />
                 <Skills  
-                    skill="Python"
-                    progress={75}
-                    />
-                <Skills  
-                    skill="NodeJS"
-                    progress={65}
-                    />
-                <Skills  
-                    skill="SQL"
-                    progress={50}
-                    />
-                    <Skills  
-                    skill="API's"
-                    progress={60}
-                    />
-                    
-
+                  skill="API's"
+                  progress={60}
+                />
           </Cell>
         </Grid>
       </div>
