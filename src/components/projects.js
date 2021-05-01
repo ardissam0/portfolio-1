@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
 import NasaImg from '../img/NasaSnip.png';
 import MiracleMessagesImg from '../img/miraclemessagessnip.JPG';
 import TodoFirebaseImg from '../img/todofirebaseimg.JPG';
 import CovidTrackAppImg from '../img/covidtrackingappimg - Copy.JPG';
 import AnywhereFitnessAppImg from '../img/anywherefitnessimg.JPG';
+import RecipeAppImg from '../img/RecipeAppImg.JPG';
 
 class Projects extends Component {
   constructor(props) {
@@ -26,9 +27,9 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              Built an authenticated mobile-friendly COVID-19 tracker app that shows you the total and new worldwide cases, as well as individual country and state data (cases, recovered, deaths, population, etc). There is a table, map, and graph that you can use to get a good visual of the data. I also implemented a weather tab so you can see the weather of any place in the world as well as a darkmode toggle for better viewing.
+              Built an authenticated mobile-friendly COVID-19 tracker app that pulls from an API and shows you the total and new worldwide cases, as well as individual country and state data (cases, recovered, deaths, population, etc). There is a table, map, and graph that you can use to get a good visual of the data. I also implemented a weather tab so you can see the weather of any place in the world as well as a darkmode toggle for better viewing.
             </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React, CSS, Firebase.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, CSS, and Firebase.</CardText>
             <CardText></CardText>
             <CardText></CardText>
             <CardActions border className='btn-proj-div'>
@@ -37,8 +38,27 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          
           {/* Project 2 */}
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
+            <CardTitle>
+                    <img
+                    src={RecipeAppImg}
+                    alt="Recipe app proj"
+                    style={{height: '100%', width: '100%'}}
+                    /></CardTitle>
+            <CardText style = {{ color: 'white', overflowY: 'auto',}}>
+              Built an authenticated mobile-friendly Recipe and Nutrition App that pulls recipes and nutrtional data from an API. You can search for a recipe and see how to make it as well as the nutritional content such as: percentage of your daily value, total quantity of nutrients, and the type of diet it falls under.
+            </CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, CSS, and Firebase.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
+            <CardActions border className='btn-proj-div'>
+              <button className ='btn-proj'><a href="https://health-app-30d89.web.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://github.com/ardissam0/Health-Fitness-App" rel="noopener noreferrer" target="_blank">Github</a></button>
+            </CardActions>
+          </Card>
+
+          {/* Project 3 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -49,7 +69,7 @@ class Projects extends Component {
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
             Watch the first 15 minutes of this presentation to see an in depth look at the project: <a href="https://youtu.be/Dp1q0x9lQNU" rel="noopener noreferrer" target="_blank">YouTube</a> <br/> <br/> Worked with a team of developers to build a web app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality using Okta. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
             </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React, Redux, CSS/SASS.</CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, Redux, and CSS/SASS.</CardText>
             <CardText></CardText>
             <CardText></CardText>
             <CardActions border className='btn-proj-div'>
@@ -58,7 +78,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 3 */}
+          {/* Project 4 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -78,7 +98,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 4 */}
+          {/* Project 5 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
@@ -133,8 +153,8 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>React</Tab>
-          <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Node</Tab>
+          <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Front-End</Tab>
+          <Tab style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}>Back-End</Tab>
         </Tabs>
 
 
