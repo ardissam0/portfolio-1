@@ -37,6 +37,11 @@
   padding: 2em;
 }
 
+.resume-embed {
+  text-align: center;
+  background-color: black;
+}
+
 /* contact page css */
 
 .contact-body, .about-page-main {
@@ -165,7 +170,8 @@
 }
 
 .logo-img {
-  height: 60px;
+  height: 3.6rem;
+  padding: 0;
 }
 
 .banner-text {
@@ -180,7 +186,7 @@
 }
 
 .banner-text h1 {
-  font-size: 45px;
+  font-size: 35px;
   color: white;
 }
 
@@ -190,7 +196,7 @@
   margin: auto;
 }
 
-.banner-text p {
+.banner-text ul li {
   color: white;
   font-size: 20px;
   padding: 1em;
@@ -200,6 +206,28 @@
   .banner-text {
     border-radius: 10px;
     height: 80%;
+  }
+}
+
+.banner-text .main-skills ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.banner-text .main-skills ul li{
+  padding: 1.4rem;
+  padding-top: 1.8rem;
+}
+
+
+@media(max-width: 850px) {
+  .banner-text .main-skills ul{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 }
 

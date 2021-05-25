@@ -20,11 +20,18 @@ class LandingPage extends Component {
                         alt="avatar"
                         className="avatar-img"
                         />
-                        <h1>FRONT-END WEB DEVELOPER</h1>
+                        <h1>WEB DEVELOPER</h1>
 
                         <hr/>
-
-                    <p>HTML/CSS | JavaScript | React</p>
+                        
+                      <div className="main-skills">
+                        <ul>
+                          <li>HTML/CSS</li>
+                          <li>JavaScript</li>
+                          <li>React</li>
+                        </ul>
+                        
+                      </div>
 
                     <div className="social-links">
 
