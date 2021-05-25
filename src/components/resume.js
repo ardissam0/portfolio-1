@@ -13,7 +13,7 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
             </div>
             <h2 style={{paddingTop: '2em'}}>Samuel Ardis </h2>
-            <h4 style={{color: 'grey'}}>Front-End Web Developer</h4>
+            <h4 style={{color: 'grey'}}>Front End Web Developer</h4>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
             <p>I am a Web Developer with 1 year of experience structuring, developing and implementing interactive websites and applications. Able to complete projects efficiently and satisfy customers with attractive, user-friendly applications.</p>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
@@ -28,40 +28,44 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid white', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
+            <div className="resume-embed">
+              <iframe src="https://drive.google.com/file/d/1lxUZNnikLGAQaWPJIlh8CbHnOfknd7va/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
+            </div>
+        
             <h2>Education</h2>
-
 
             <Education
               startYear={2014}
               endYear={2018}
-              schoolName="Grand Valley State University (BS)"
-              schoolDescription1="(77 credit hours) Junior level status"
+              schoolName="Grand Valley State University"
+              schoolDescription1="Junior level status"
 
-              schoolDescription2="Completed courses in multiple disciplines like: Arabic, Biology, Creative writing, Nutrition, Psychology, Statistics, and many more."
-              schoolDescription3="Studied abroad for 5 weeks in the middle east (Oman and Dubai), with a small group of students and gain a world perspective that changed me forever"
-              schoolDescription4="Worked hands-on with many different groups of students to complete various projects and presentations"
-              schoolDescription5="Also developed many individual projects in various disciplines, giving me unique perspectives from different fields of study"
-              schoolDescription6="Reached the deans list (3.5+ GPA) during my time at GVSU"
-              schoolDescription7="Currently not enrolled due to financial reasons, I hope to return someday soon"/>
+              schoolDescription2="Completed courses in multiple disciplines including: Statistics, Business, Technical Writing, Psychology, Sociology, Diversity, Biology, Geology, Nutrition, Linguistics, Arabic, Creative writing, and more."
+              schoolDescription3="Studied abroad for 5 weeks in the middle east (Oman and Dubai), with a small group of students and gain a world perspective that changed me forever."
+              schoolDescription4="Worked hands-on with many different groups of students to complete various projects and presentations."
+              schoolDescription5="Also developed many individual projects in various disciplines, giving me unique perspectives from different fields of study."
+              schoolDescription6="Reached the deans list (3.5+ GPA) during my time at GVSU."
+              schoolDescription7="Due to unexpected life events I was forced to withdraw from GVSU and pursue other forms of education."
+              />
 
                <Education
                  startYear={2019}
                  endYear={2020}
-                 schoolName="Lambda School (Online computer science and software engineering program)"
+                 schoolName="Lambda School (Full-Stack Web Development & computer science program)"
 
-                 schoolDescription1="Completed the 9+ month intensive computer science and software engineering program that provides an immersive hands-on curriculum with a focus on computer science and full stack web development."
-                 schoolDescription2="Approached many coding challenges using pair programming"
-                 schoolDescription3="Utilized agile software development and Git workflow on all projects"
-                 schoolDescription4="Gained hands-on experience with client and server testing"
+                 schoolDescription1="Completed 9+ months of intensive computer science and software engineering training that provides an immersive hands-on curriculum."
+                 schoolDescription2="Approached many coding challenges using pair programming."
+                 schoolDescription3="Utilized agile software development and Git workflow on all projects."
+                 schoolDescription4="Gained hands-on experience with client and server testing."
                  schoolDescription5="Designed original user experiences across a range of web and mobile platforms, from ideation, to wireframing, to final product"
-                 schoolDescription6="Completed all curriculum course work including: React, Redux, Node, Express, Jest, Python, etc"
-                 schoolDescription7="Wrote production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single-page applications" />
+                 schoolDescription6="Completed all curriculum course work including: React, Redux, Node, Express, Jest, Python, etc."
+                 schoolDescription7="Wrote production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single-page applications." />
                   
-                <hr style={{borderTop: '3px solid white'}} />
+                {/* <hr style={{borderTop: '3px solid white'}} /> */}
 
-              <h2>Experience</h2>
+              {/* <h2>Experience</h2> */}
 
-            <Experience
+            {/* <Experience
               startYear={2020}
               endYear={2020}
               jobName="Miracle Messages (nonprofit Organization"
@@ -73,26 +77,26 @@ class Resume extends Component {
               jobDescription5="Designed original user experiences by building an interactive map, and tiered authorization for the dashboard and other functionality."
               jobDescription6="Used wireframe to picture the design of the dashboard."
               jobDescription7="Completed 3 product release cycles using measurable release canvases"
-              jobDescription8="Wrote production-ready code using ReactJS, Redux, and CSS/SASS to build this single-page application" />
+              jobDescription8="Wrote production-ready code using ReactJS, Redux, and CSS/SASS to build this single-page application" /> */}
                   
 
               <hr style={{borderTop: '3px solid white'}} />
               <h2>Skills</h2>
               <Skills
                   skill="HTML/CSS"
-                  progress={95}
+                  progress={93}
                   />
               <Skills
                 skill="JavaScript"
-                progress={70}
+                progress={75}
                 />
                 <Skills
                   skill="React"
                   progress={85}
                 />
                 <Skills  
-                  skill="API's"
-                  progress={60}
+                  skill="RESTful API's"
+                  progress={70}
                 />
           </Cell>
         </Grid>
