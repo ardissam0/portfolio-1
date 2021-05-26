@@ -42,16 +42,16 @@ render() {
                 <Navigation>
                   <Link onMouseOver={changeColor}
                   onMouseLeave={changeColorBack}
-                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/resume">RESUME</Link>
+                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/resume">RESUME</Link>
                   <Link onMouseOver={changeColor}
                   onMouseLeave={changeColorBack}
-                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/aboutme">ABOUT</Link>
+                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/aboutme">ABOUT</Link>
                   <Link onMouseOver={changeColor}
                   onMouseLeave={changeColorBack}
-                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/projects">PROJECTS</Link>
+                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/projects">PROJECTS</Link>
                   <Link onMouseOver={changeColor}
                   onMouseLeave={changeColorBack}
-                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/contact">CONTACT</Link>
+                  style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/contact">CONTACT</Link>
                </Navigation>
             </Header>
             <Drawer style ={{backgroundColor: 'black'}} 
@@ -67,16 +67,16 @@ render() {
                 <Navigation>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/resume">RESUME</Link>
+                style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/resume">RESUME</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/aboutme">ABOUT</Link>
+                style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/aboutme">ABOUT</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/projects">PROJECTS</Link>
+                style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/projects">PROJECTS</Link>
                 <Link onMouseOver={changeColor}
                 onMouseLeave={changeColorBack}
-                style= {{color: 'white', letterSpacing: '.5em', fontSize: '14px', }} to="/contact">CONTACT</Link>
+                style= {{color: 'white', letterSpacing: '.5em', fontSize: '15px', }} to="/contact">CONTACT</Link>
                 </Navigation>
             </Drawer>
             <Content>
@@ -85,7 +85,7 @@ render() {
                 <FooterPage/>
             </Content>
         </Layout>
-</div>
+      </div>
 
     );
   }

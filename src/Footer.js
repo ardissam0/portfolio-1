@@ -6,7 +6,7 @@ import { Footer, FooterSection, FooterLinkList,} from 'react-mdl';
 function FooterPage() {
     return (
         <div>
-            <Footer size="mini" style={{backgroundColor: 'black', justifyContent: 'center', alignItems: 'center',}}>
+            <Footer size="mini" style={{justifyContent: 'center', alignItems: 'center',}}>
                 <FooterSection type="left" >
                     <FooterLinkList>
                         <Link style= {{color: 'white', letterSpacing: '.5em',}} to="/"> HOME</Link>
