@@ -5,7 +5,6 @@
 .landing-grid {
   overflow-y: auto;
   background: white;  /* fallback for old browsers */
-  /* background-image: url("./img/fadedwavesloop.gif"); */
   background-repeat: repeat no-repeat;
   object-fit: fill;
   background-size: cover;
@@ -54,12 +53,28 @@
   padding-top: 2em;
 }
 
-.contact-grid, .about-page-main{
+.contact-body {
   text-align: center;
+}
+
+.contact-grid, .about-page-main{
   justify-content: center;
   width: 100%;
   background-color: white;
   color: black;
+}
+
+.about-page-main .about-me_div h2{
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.about-img-theo {
+  height: 18rem;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .contact-grid h2{
