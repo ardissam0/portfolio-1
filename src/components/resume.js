@@ -34,20 +34,6 @@ class Resume extends Component {
             <h2>Education</h2>
 
             <Education
-              startYear={2014}
-              endYear={2018}
-              schoolName="Grand Valley State University"
-              schoolDescription1="Junior level status"
-
-              schoolDescription2="Completed courses in multiple disciplines including: Statistics, Business, Technical Writing, Psychology, Sociology, Diversity, Biology, Geology, Nutrition, Linguistics, Arabic, Creative writing, and more."
-              schoolDescription3="Studied abroad for 5 weeks in the middle east (Oman and Dubai), with a small group of students and gain a world perspective that changed me forever."
-              schoolDescription4="Worked hands-on with many different groups of students to complete various projects and presentations."
-              schoolDescription5="Also developed many individual projects in various disciplines, giving me unique perspectives from different fields of study."
-              schoolDescription6="Reached the deans list (3.5+ GPA) during my time at GVSU."
-              schoolDescription7="Due to unexpected life events I was forced to withdraw from GVSU and pursue other forms of education."
-              />
-
-               <Education
                  startYear={2019}
                  endYear={2020}
                  schoolName="Lambda School (Full-Stack Web Development & computer science program)"
@@ -59,6 +45,19 @@ class Resume extends Component {
                  schoolDescription5="Designed original user experiences across a range of web and mobile platforms, from ideation, to wireframing, to final product"
                  schoolDescription6="Completed all curriculum course work including: React, Redux, Node, Express, Jest, Python, etc."
                  schoolDescription7="Wrote production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single-page applications." />
+
+            <Education
+              startYear={2014}
+              endYear={2018}
+              schoolName="Grand Valley State University"
+
+              schoolDescription2="Completed courses in multiple disciplines including: Statistics, Business, Technical Writing, Psychology, Sociology, Diversity, Biology, Geology, Nutrition, Linguistics, Arabic, Creative writing, and more."
+              schoolDescription3="Studied abroad for 5 weeks in the middle east (Oman and Dubai), with a small group of students and gain a world perspective that changed me forever."
+              schoolDescription4="Worked hands-on with many different groups of students to complete various projects and presentations."
+              schoolDescription5="Also developed many individual projects in various disciplines, giving me unique perspectives from different fields of study."
+              schoolDescription6="Reached the deans list (3.5+ GPA) during my time at GVSU."
+              schoolDescription7="I took time off to pursue personal education, and that's when I found Lambda School."
+              />
                   
                 {/* <hr style={{borderTop: '3px solid white'}} /> */}
 
