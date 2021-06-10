@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
+// import Experience from './experience';
 
 class Resume extends Component {
   render() {
@@ -29,7 +28,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <div className="resume-embed">
-              <iframe src="https://drive.google.com/file/d/1lxUZNnikLGAQaWPJIlh8CbHnOfknd7va/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
+              <iframe src="https://drive.google.com/file/d/1USnlA2vVMRtsTskZmmn6FBXnG6oSpXvA/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
             </div>
         
             <h2>Education</h2>
@@ -78,26 +77,7 @@ class Resume extends Component {
               jobDescription6="Used wireframe to picture the design of the dashboard."
               jobDescription7="Completed 3 product release cycles using measurable release canvases"
               jobDescription8="Wrote production-ready code using ReactJS, Redux, and CSS/SASS to build this single-page application" /> */}
-                  
 
-              <hr style={{borderTop: '3px solid white'}} />
-              <h2>Skills</h2>
-              <Skills
-                  skill="HTML/CSS"
-                  progress={93}
-                  />
-              <Skills
-                skill="JavaScript"
-                progress={75}
-                />
-                <Skills
-                  skill="React"
-                  progress={85}
-                />
-                <Skills  
-                  skill="RESTful API's"
-                  progress={70}
-                />
           </Cell>
         </Grid>
       </div>
