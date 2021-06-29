@@ -12,7 +12,7 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
             </div>
             <h2 style={{paddingTop: '2em'}}>Samuel Ardis </h2>
-            <h4 style={{color: 'grey'}}>Front End Web Developer</h4>
+            <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
             <p>I am a Web Developer with 1 year of experience structuring, developing and implementing interactive websites and applications. Able to complete projects efficiently and satisfy customers with attractive, user-friendly applications.</p>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
@@ -28,7 +28,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <div className="resume-embed">
-              <iframe src="https://drive.google.com/file/d/1USnlA2vVMRtsTskZmmn6FBXnG6oSpXvA/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
+            <iframe src="https://drive.google.com/file/d/1-XWnnaDycce45DERbhUcZfKEm5GvOXa8/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
             </div>
         
             <h2>Education</h2>

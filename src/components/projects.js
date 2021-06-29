@@ -73,7 +73,7 @@ class Projects extends Component {
             <CardText></CardText>
             <CardText></CardText>
             <CardActions border className='btn-proj-div'>
-              <button className ='btn-proj'><a href="https://miracle-messages-fe-dgknhsijz.vercel.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://production.d3iery6e42ccvf.amplifyapp.com/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
               <button className ='btn-proj'><a href="https://github.com/Lambda-School-Labs/miracle-messages-fe" rel="noopener noreferrer" target="_blank">Github</a></button>
             </CardActions>
           </Card>
