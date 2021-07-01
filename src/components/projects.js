@@ -6,6 +6,7 @@ import TodoFirebaseImg from '../img/todofirebaseimg.JPG';
 import CovidTrackAppImg from '../img/covidtrackingappimg - Copy.JPG';
 import AnywhereFitnessAppImg from '../img/anywherefitnessimg.JPG';
 import RecipeAppImg from '../img/RecipeAppImg.JPG';
+import AmazonAppImg from '../img/AmazonAppImg.JPG';
 
 class Projects extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              Built an authenticated mobile-friendly COVID-19 tracker app that pulls from an API and shows you the total and new worldwide cases, as well as individual country and state data (cases, recovered, deaths, population, etc). There is a table, map, and graph that you can use to get a good visual of the data. I also implemented a weather tab so you can see the weather of any place in the world as well as a darkmode toggle for better viewing.
+              Built an authenticated mobile-responsive COVID-19 tracker app that pulls from an API and shows you the total and new worldwide cases, as well as individual country and state data (cases, recovered, deaths, population, etc). There is a table, map, and graph that you can use to get a good visual of the data. I also implemented a weather tab so you can see the weather of any place in the world as well as a darkmode toggle for better viewing.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, CSS, and Firebase.</CardText>
             <CardText></CardText>
@@ -47,7 +48,7 @@ class Projects extends Component {
                     style={{height: '100%', width: '100%'}}
                     /></CardTitle>
             <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-              Built an authenticated mobile-friendly Recipe and Nutrition App that pulls recipes and nutrtional data from an API. You can search for a recipe and see how to make it as well as the nutritional content such as: percentage of your daily value, total quantity of nutrients, and the type of diet it falls under.
+              Built an authenticated mobile-responsive Recipe and Nutrition App that pulls recipes and nutrtional data from an API. You can search for a recipe and see how to make it as well as the nutritional content such as: percentage of your daily value, total quantity of nutrients, and the type of diet it falls under.
             </CardText>
             <CardText style = {{ color: 'white',}}> STACK: React, CSS, and Firebase.</CardText>
             <CardText></CardText>
@@ -79,6 +80,26 @@ class Projects extends Component {
           </Card>
 
           {/* Project 4 */}
+          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
+            <CardTitle>
+                    <img
+                    src={AmazonAppImg}
+                    alt="Amazon clone app Project"
+                    style={{height: '100%', width: '100%'}}
+                    /></CardTitle>
+            <CardText style = {{ color: 'white', overflowY: 'auto',}}>
+              Built an Amazon clone that is mobile-responsive, uses firebase for signup/login/logout functionality, firestore for making orders, and stripe to use a card to place an order. You can add items to the cart, delete items, and check out your order page. 
+            </CardText>
+            <CardText style = {{ color: 'white',}}> STACK: React, CSS, stripe, and Firebase.</CardText>
+            <CardText></CardText>
+            <CardText></CardText>
+            <CardActions border className='btn-proj-div'>
+              <button className ='btn-proj'><a href="https://ecom-store-2021.web.app/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
+              <button className ='btn-proj'><a href="https://github.com/ardissam0/ecom-store-2021/tree/Sam-Ardis/ecom-store-1" rel="noopener noreferrer" target="_blank">Github</a></button>
+            </CardActions>
+          </Card>
+
+          {/* Project 5 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
