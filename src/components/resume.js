@@ -14,7 +14,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Samuel Ardis </h2>
             <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
-            <p>I am a Web Developer with 1 year of experience structuring, developing and implementing interactive websites and applications. Able to complete projects efficiently and satisfy customers with attractive, user-friendly applications.</p>
+            <p>I am a Web Developer with experience designing, developing, testing, and publishing accessible websites and applications. Able to complete projects efficiently and satisfy customers with attractive, user-friendly applications.</p>
             <hr style={{borderTop: '3px solid black', width: '50%'}}/>
             <h5>Location</h5>
             <p>Lansing, MI</p>
@@ -28,10 +28,24 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <div className="resume-embed">
-            <iframe src="https://drive.google.com/file/d/1N9fWoFAabzUviJ5kRx-bLIp282Yctbmb/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
+            <iframe src="https://drive.google.com/file/d/1nwIaipWC-j1Er7jgJ-wduxyMUiQyHzEH/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
             </div>
         
             <h2>Education</h2>
+
+            <Education
+                 startYear={2021}
+                 endYear={2022}
+                 schoolName="Montcalm Community College - Web Development & Programming Associate of Applied Science (A.A.S.)"
+
+                 schoolDescription1="Learned HTML, Java, Python, and C++"
+                 schoolDescription2="Worked on projects with groups and alone."
+                 schoolDescription3="Learned the fundamentals of programming & Logic"
+                 schoolDescription4="Learned Computer Information Systems, Database applications, and Microcomputer Spreadsheets"
+                 schoolDescription5="Learned Web Development, Algorithms, and Data Structures."
+                 schoolDescription6="Completed General Education requirements including: oral and written Communication, Laboratory Science, Math, Social Science, and courses in Humanities & Fine Arts"
+                 schoolDescription7="Completed courses such as CMIS 115 (Computer Information Systems), CPGM 132 (HTML), CMIS 250 (Microcomputer Spreadsheets), CMIS 255 (Microcomputer Database Applications), CPGM 110 (Java), CPGM 120 (Python), CPGM 130 (Programming & Logic), CPGM 131 (Intro to C++), CPGM 220 (Advanced Visual Basic), CPGM 230 (Advanced C++)." />
+
 
             <Education
                  startYear={2019}
@@ -49,7 +63,7 @@ class Resume extends Component {
             <Education
               startYear={2014}
               endYear={2018}
-              schoolName="Grand Valley State University"
+              schoolName="Grand Valley State University - Bachelor of Science, Writing (B.S.)"
 
               schoolDescription2="Completed courses in multiple disciplines including: Statistics, Business, Technical Writing, Psychology, Sociology, Diversity, Biology, Geology, Nutrition, Linguistics, Arabic, Creative writing, and more."
               schoolDescription3="Studied abroad for 5 weeks in the middle east (Oman and Dubai), with a small group of students and gain a world perspective that changed me forever."
