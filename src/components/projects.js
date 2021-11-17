@@ -63,26 +63,6 @@ class Projects extends Component {
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img
-                    src={MiracleMessagesImg}
-                    alt="Mirracle messages labs project"
-                    style={{height: '100%', width: '100%'}}
-                    /></CardTitle>
-            <CardText style = {{ color: 'white', overflowY: 'auto',}}>
-            Watch the first 15 minutes of this presentation to see an in depth look at the project: <a href="https://youtu.be/Dp1q0x9lQNU" rel="noopener noreferrer" target="_blank">YouTube</a> <br/> <br/> Worked with a team of developers to build a web app for a nonprofit organization called Miracle Messages. We worked directly with the CEO to build out a map with pins, lines, and pop up modals as well as tiered authorization structure for dashboards and functionality using Okta. This was all to show connections between homeless people who have been reconnected with friends and family and to help organize the process for the CEO and others working at the organization.
-            </CardText>
-            <CardText style = {{ color: 'white',}}> STACK: React, Redux, and CSS/SASS.</CardText>
-            <CardText></CardText>
-            <CardText></CardText>
-            <CardActions border className='btn-proj-div'>
-              <button className ='btn-proj'><a href="https://production.d3iery6e42ccvf.amplifyapp.com/" rel="noopener noreferrer" target="_blank">Deployed</a></button>
-              <button className ='btn-proj'><a href="https://github.com/Lambda-School-Labs/miracle-messages-fe" rel="noopener noreferrer" target="_blank">Github</a></button>
-            </CardActions>
-          </Card>
-
-          {/* Project 4 */}
-          <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
-            <CardTitle>
-                    <img
                     src={AmazonAppImg}
                     alt="Amazon clone app Project"
                     style={{height: '100%', width: '100%'}}
@@ -99,7 +79,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/* Project 5 */}
+          {/* Project 4 */}
           <Card shadow={5} className="proj-cards" style={{ margin: 'auto', background: 'black', borderRadius: '7px', marginBottom: '25px', height: '500px',}}>
             <CardTitle>
                     <img

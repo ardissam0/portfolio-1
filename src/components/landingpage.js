@@ -23,15 +23,6 @@ class LandingPage extends Component {
                         <h1>WEB DEVELOPER</h1>
 
                         <hr/>
-                        
-                      <div className="main-skills">
-                        <ul>
-                          <li>HTML/CSS</li>
-                          <li>JavaScript</li>
-                          <li>React</li>
-                        </ul>
-                        
-                      </div>
 
                     <div className="social-links">
 
