@@ -28,7 +28,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <div className="resume-embed">
-            <iframe src="https://drive.google.com/file/d/1nwIaipWC-j1Er7jgJ-wduxyMUiQyHzEH/preview" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px" ></iframe>
+            <iframe src="https://drive.google.com/file/d/15Yd_-r5SeINACUuGlsHEYDoGIqKGdTtk/preview" allow="autoplay" frameborder="0" border="0" cellspacing="0" scrolling="no" width="100%" height="360px"></iframe>
             </div>
         
             <h2>Education</h2>
